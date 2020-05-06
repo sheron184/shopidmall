@@ -1,0 +1,110 @@
+.selling-banner{
+	background-image: url(../images/runze.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.d-4 {
+    font-size: 25px !important;
+    font-weight: 100 !important;
+    line-height: 1.2;
+    color: #111 !important;
+}
+.main-btn{
+	color: #276b50;
+    border: 3px solid #276b50;
+    width: 180px !important;
+    background: #baead759;
+    border-radius: 50px;
+    height: 50px;
+    font-weight: 600;
+    
+}
+.right_arrw{
+	color: #276b50;
+}
+.main-btn:hover  .right_arrw{
+	color: #fff;
+}
+.main-btn:hover{
+	background-color: #276b50;
+	color: #fff;
+	
+}
+a:hover{
+	text-decoration: none;
+}
+.banner-text{
+	color: #fff;
+	font-size: 20px;
+}
+.banner-text h4{
+	text-shadow: 2px 4px 5px #111;
+}
+.banner-text h5{
+	text-shadow: 2px 4px 5px #111;
+}
+.sell-col{
+	background-image: url(../images/mobiles.jpg);
+	padding-top:100%;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+.sell-col-img-1{
+	background-image: url(../images/mobiles.jpg);			
+}
+.sell-col-img-2{
+	background-image: url(../images/laptops.jpg);		
+}
+.sell-col-img-3{
+	background-image: url(../images/vehicles.jpg);	
+}
+.sell-col-img-4{
+	background-image: url(../images/fashion.jpg);
+}
+/* SELL FORM */
+.upload_form{
+	display: none;
+}
+.finish-btn{
+	display: none;
+}
+.img_box{
+	border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+.ebay-store{
+	color: #949494;
+    font-weight: 100;
+    font-size: 25px;
+    /* text-align: center;*/
+}
+.reasons p{
+	color:  #949494;
+}
+.whtsell{
+	color: #676767;
+    font-weight: lighter;
+}
+.sell_card{
+	border: none !important;
+}
+.sell_head{
+	background-color: transparent !important;
+	border-bottom: none !important;
+}
+.items_column{
+	flex-direction: row;
+}
+@media(max-width: 738px){
+	.items_column{
+		flex-direction: column !important;
+	}
+	.reasons p{
+		text-align: center;
+	}
+	.ebay-store{
+		text-align: center;
+	}
+}

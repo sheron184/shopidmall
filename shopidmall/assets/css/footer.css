@@ -1,0 +1,37 @@
+.footer{
+	background-color: #02072d;
+}
+.column_p{
+
+}
+@media(max-width: 576px){
+	.footer_text{
+		text-align: center;
+	}
+	.mylist li{
+		display: flex !important;
+		justify-content: center !important;
+	}
+}
+
+
+.mylist li{
+	list-style: none;
+
+}
+.mylist li a{
+	color: #fff;
+	font-size: 12px;
+}
+.list_header{
+
+    
+}
+
+.i_text{
+	font-size: 11px;
+	color: #ccc;
+}
+.fa1{
+	font-size:11px !important;
+}

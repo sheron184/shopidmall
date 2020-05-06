@@ -1,0 +1,8 @@
+.wrapper{
+	width: 100%;
+	display: block;
+	height: 100vh;
+	background-color: #111111a6;
+	position: fixed;
+	z-index: 999;
+}

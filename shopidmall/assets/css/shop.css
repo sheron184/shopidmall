@@ -1,0 +1,36 @@
+.category_bar{
+	
+	border-radius: 10px;
+}
+.mylist .list_item{
+	background-color: #de08d730;
+	margin-top: 5px !important;
+	border-radius: 6px !important;
+	text-align: center !important;
+	cursor: pointer;
+	padding:4px !important;
+	border:none !important;
+}
+.mylist .list_item .item_link{
+	color: #b914bb;
+}
+.mylist .list_item:hover{
+	background-color: #ccc !important;
+}
+.mylist .list_item:hover .item_link{
+	color: blue;
+}
+
+.mylist .list_item .item_link:hover{
+	text-decoration: none;
+}
+.item_bar{
+	padding-left: 35px !important;
+}
+.fa1{
+	color: #ce14c8;
+    font-size: 12px !important;
+}
+.fa1-1{
+	color: #ce14c8;
+}

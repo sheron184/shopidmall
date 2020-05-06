@@ -1,0 +1,35 @@
+$(document).ready(function(){
+	$(".sign_up_btn").on("click",function(){
+		$(".register_intro").animate({
+			right:'480px',
+		},'slow','linear',function(){
+			$(".sign_up_intro").removeClass("d-flex");
+			$(".sign_up_intro").addClass("d-none");
+			$(".sign_in_intro").removeClass("d-none");
+			$(".sign_in_intro").addClass("d-flex");
+			$(".forms").addClass("change_order");
+			$(".login_form").removeClass("d-flex");
+			$(".login_form").addClass("d-none");
+			$(".register_form").removeClass("d-none");
+			$(".register_form").addClass("d-flex");
+			$(".register_intro").css('right','0px');
+		});
+	});
+	$(".sign_in_btn").on("click",function(){
+		$(".register_intro").animate({
+			left:'480px',
+		},'slow','linear',function(){
+			$(".sign_up_intro").removeClass("d-none");
+			$(".sign_up_intro").addClass("d-flex");
+			$(".sign_in_intro").removeClass("d-flex");
+			$(".sign_in_intro").addClass("d-none");
+			$(".forms").removeClass("change_order");
+			$(".login_form").removeClass("d-none");
+			$(".login_form").addClass("d-flex");
+			$(".register_form").removeClass("d-flex");
+			$(".register_form").addClass("d-none");
+			$(".register_intro").css('left','0px');
+		});
+	});
+});
+

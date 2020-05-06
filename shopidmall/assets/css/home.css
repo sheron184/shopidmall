@@ -1,0 +1,21 @@
+@media(max-width: 576px){
+	.category_card{
+		height: 450px;
+	}
+	.category_img{
+		height: 200px;
+	}
+}
+@media(max-width: 418px){
+	.category_card{
+		height: 350px;
+	}
+	.category_img{
+		height: 100%;
+	}
+}
+@media(max-width: 350px){
+	.shopping-img-1{
+		display: none !important;
+	}
+}

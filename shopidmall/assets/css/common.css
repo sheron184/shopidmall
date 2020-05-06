@@ -1,0 +1,154 @@
+body{
+	background-color: #d0cccc08 !important;
+}
+.forms{
+	background-color: #fff;
+}
+.nav-link{
+    color:#111 !important;
+    font-size:12px;
+}
+.fa{
+    color:#504d4d;
+    font-size: 16px !important;
+}
+.header-search{
+	padding:20px;
+}
+.after-header-ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shop-now-sec{
+	background-color: #f6b229;
+	padding:25px !important;
+}
+.banner-text{
+	font-size: 2.25rem;
+	color: #bd1414;
+}
+.banner-para{
+	color: #bd1414;
+}
+.shopping-img-1{
+	width: 200px;
+}
+.second-column{
+	background-image: url(../images/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;	
+}
+@media (max-width: 738px){
+	.second-column{
+		display: none !important;
+	}
+	.third-column{
+		display: none !important;
+	}
+}
+.third-column{
+	background-image: url(../images/shopping-drone.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;	
+}
+.border-div{
+	height: 100%;
+    border-left: 1px solid #ccc !important;
+}
+.category_img{
+	width: 100%;
+	height: 150px;
+}
+.mybtn{
+	border-radius: 25px !important;
+	background-color: #b10b0b !important;
+	border:none !important;
+}
+.category_title{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: inherit;
+}
+.search_btn{
+	background-color: #fff !important;
+    color: #ccc !important;
+    border: 1px solid #a5a2a2 !important;
+    border-radius: 20px !important;
+}
+.whyebay{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #b10b0b;
+    border-radius: 50%;
+   
+}
+.whyebay i{
+	font-size: 50px !important;
+	color: #b10b0b;
+}
+.item_img{
+	width: 100%;
+	height: 100%;
+}
+.fa-trash{
+	color: red;
+}
+.my_input{
+	border: none !important;
+    background: #f9f9f9 !important;
+   
+}
+.my_input_wrapper{
+	border: none !important;
+    background: #f9f9f9 !important;
+    border-radius: 17px !important;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+.my_icon{
+	width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin-left: 10px;
+    color: #c7c0c0;
+}
+.register_intro{
+	background-color: #3cb19e;
+}
+.sign_in_title{
+	color: #3cb19e;
+}
+.sign_in{
+	background: #159681 !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+    padding: 5px 25px 5px 25px !important;
+
+}
+.my_anime{
+	animation-name: move;
+	animation-duration: 2s;
+}
+@keyframes move{
+	0%  {left:   0px;}
+	100%{left: 480px;}
+}
+.change_order{
+	order: 2;
+}
+.change_order_1{
+	order: 1;
+}
+.my_badge{
+	font-size: 8px !important;
+    margin-left: -5px !important;
+    border-radius: 20px !important;
+}
+.my_card{
+	min-height: 60vh !important;
+}
